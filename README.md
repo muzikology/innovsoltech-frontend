@@ -4,9 +4,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `npn start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+First run "npm install" to install all the libraries.
+Run `npm start` for a dev server. Navigate to `http://localhost:4200/`.
 
-The project calls the interstella back end fot innovsoltech to find the shortest distance between planets.
+The project calls the interstella back end for innovsoltech to find the shortest distance between planets.
 Every Planet has a Vertex ID, for instance: to find the shortest distance between the Earth and Mercury the pop up
 wil show 4 input textfield:
 
