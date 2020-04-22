@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectorRef } from '@angular/core';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'innovsoltech-frontend';
+  title = 'interstella-front-end';
+
+
+
+  constructor( private router: Router) {
+   
 }
+
+
+interstellaPage(){
+  this.router.navigate(['app-interstella-transport', 1]);
+}
+
+}
+
